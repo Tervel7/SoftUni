@@ -1,15 +1,5 @@
 .idea/
 
-out/
-*.class
-
-.idea_modules/
-.ideaLibraries/
-
-build/
-bin/
-target/
-
 *.iml
 *.ipr
 *.iws
