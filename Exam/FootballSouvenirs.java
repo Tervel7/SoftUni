@@ -9,7 +9,6 @@ public class FootballSouvenirs {
         String team = scanner.nextLine();
         String souvenir = scanner.nextLine();
         int souvenirCount = Integer.parseInt(scanner.nextLine());
-        double bill = 0;
 
         switch (team) {
             case "Argentina":
@@ -28,7 +27,7 @@ public class FootballSouvenirs {
                         break;
                     default:
                         System.out.println("Invalid stock!");
-                };
+                }
                 break;
             case "Brazil":
                 switch (souvenir) {
@@ -46,7 +45,7 @@ public class FootballSouvenirs {
                         break;
                     default:
                         System.out.println("Invalid stock!");
-                };
+                }
                 break;
             case "Croatia":
                 switch (souvenir) {
@@ -64,7 +63,7 @@ public class FootballSouvenirs {
                         break;
                     default:
                         System.out.println("Invalid stock!");
-                };
+                }
                 break;
             case "Denmark":
                 switch (souvenir) {
@@ -82,7 +81,7 @@ public class FootballSouvenirs {
                         break;
                     default:
                         System.out.println("Invalid stock!");
-                };
+                }
                 break;
             default:
                 System.out.println("Invalid country!");
